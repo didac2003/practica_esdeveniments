@@ -24,13 +24,13 @@ document.onkeydown=function(e){
         matriu[i] = document.getElementById("lletra").innerHTML=e.key;
     }
     for(var i = 0; i< 10; i++){
-        document.write(matriu[i])
+        document.getElementById("mostrar").innerHTML=(matriu[i])
     }
 }
 */
 
 //Ex4
-
+/*
 window.onload = function () {
     var contador = 0;
     document.getElementById("boton1").onclick = function () {
@@ -38,16 +38,15 @@ window.onload = function () {
         document.getElementById("mostrar").innerHTML = contador
     }
 }
-
+*/
 
 //Ex5
-/*
+
+let paraula = '';
+
 document.onkeydown=function(e){
-    var b
-    document.getElementById("lletra").innerHTML=e.keyCode;
-    b+=e.keyCode
-    if (b == 131){
-        document.write("dsads")
-    }
+    paraula += e.key;
+
+    if(paraula=="qwerty")
+        window.open(url="https://www.youtube.com/watch?v=RCA3EfKUJMw")
 }
-*/
