@@ -17,17 +17,12 @@ document.onkeyup=function(){
 */
 
 //Ex3
-/*
-let matriu = [];
+let paraula = ""
 document.onkeydown=function(e){
-    for(var i = 0; i < 10;  i++){
-        matriu[i] = document.getElementById("lletra").innerHTML=e.key;
-    }
-    for(var i = 0; i< 10; i++){
-        document.getElementById("mostrar").innerHTML=(matriu[i])
-    }
+    paraula += e.key;
+    document.getElementById("lletra").innerHTML = paraula
 }
-*/
+
 
 //Ex4
 /*
@@ -41,7 +36,7 @@ window.onload = function () {
 */
 
 //Ex5
-
+/*
 let paraula = '';
 
 document.onkeydown=function(e){
@@ -50,3 +45,4 @@ document.onkeydown=function(e){
     if(paraula=="qwerty")
         window.open(url="https://www.youtube.com/watch?v=RCA3EfKUJMw")
 }
+*/
