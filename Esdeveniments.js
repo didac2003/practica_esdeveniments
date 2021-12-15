@@ -17,12 +17,13 @@ document.onkeyup=function(){
 */
 
 //Ex3
+/*
 let paraula = ""
 document.onkeydown=function(e){
     paraula += e.key;
     document.getElementById("lletra").innerHTML = paraula
 }
-
+*/
 
 //Ex4
 /*
@@ -32,17 +33,19 @@ window.onload = function () {
         contador++;
         document.getElementById("mostrar").innerHTML = contador
     }
+    document.getElementById("boton2").onclick = function () {
+        contador=0
+        document.getElementById("mostrar").innerHTML = contador
+    }
 }
 */
 
 //Ex5
 /*
 let paraula = '';
-
 document.onkeydown=function(e){
     paraula += e.key;
-
-    if(paraula=="qwerty")
+    if(paraula=="dri")
         window.open(url="https://www.youtube.com/watch?v=RCA3EfKUJMw")
 }
 */
