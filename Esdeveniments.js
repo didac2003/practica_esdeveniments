@@ -47,3 +47,20 @@ document.onkeydown=function(e){
         window.open(url="https://www.youtube.com/watch?v=RCA3EfKUJMw")
 }
 */
+
+//Ex11 primer event
+/*
+function abreventana(){ 
+    window.open("http://www.google.es","venta","") 
+} 
+*/
+
+//Ex11 segon event
+/*
+function coordenades(e) {
+    var x = e.clientX;
+    var y = e.clientY;
+    var coor = "Les coordenades són: (" + x + "," + y + ")";
+    document.getElementById("demo").innerHTML = coor;
+}
+*/
