@@ -27,7 +27,6 @@ document.onkeydown=function(e){
 
 //Ex4
 /*
-window.onload = function () {
     var contador = 0;
     document.getElementById("boton1").onclick = function () {
         contador++;
@@ -37,7 +36,6 @@ window.onload = function () {
         contador=0
         document.getElementById("mostrar").innerHTML = contador
     }
-}
 */
 
 //Ex5
